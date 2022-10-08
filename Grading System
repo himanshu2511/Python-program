@@ -1,0 +1,16 @@
+#grading marks
+a=int(input("Enter your Grade: "))
+if a>90:
+    print("Excellent")
+elif a>80:
+    print("Very Good")
+elif a>70:
+    print("Keep going well")
+elif a>60:
+    print("Good")
+elif a>50:
+    print("Fair")
+elif a>=33:
+    print("Do well")
+else:
+    print("Fail")
